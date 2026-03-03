@@ -367,3 +367,10 @@ footer .footer-container {
     }
 
 }
+#banner .banner-image img {
+    width: 100%;    
+    max-width: 585px; 
+    height: auto;   git
+    display: block; 
+    margin-top: 20px;
+}
