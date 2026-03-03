@@ -282,3 +282,88 @@ footer .footer-container {
 
     color: #757575
 }
+
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    /* NAVIGATION */
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav .menu {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    /* BANNER */
+    #banner {
+        flex-direction: column;
+        margin: 30px 20px;
+        text-align: center;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 42px;
+    }
+
+    #banner .banner-content h2 {
+        font-size: 28px;
+    }
+
+    #banner .banner-image img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    /* ABOUT */
+    #about .about-container {
+        padding: 60px 20px;
+    }
+
+    #about .about-container .about-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* SKILLS */
+    #skills .skills-container .skill-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-box .skill-card {
+        max-width: 100%;
+    }
+
+    /* RESUME */
+    #resume .resume-container {
+        flex-direction: column;
+    }
+
+    .resume-card {
+        margin-right: 0;
+    }
+
+    /* FOOTER */
+    footer .footer-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-container form input[type="text"],
+    .footer-container form textarea {
+        width: 100%;
+    }
+
+}
